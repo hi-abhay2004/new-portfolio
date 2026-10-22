@@ -13,7 +13,7 @@ export function Contact() {
     <section id="contact" className="relative border-t border-border px-6 py-28 md:px-10">
       <div className="mx-auto grid max-w-7xl gap-16 md:grid-cols-[1fr_1.2fr]">
         <Reveal>
-          <span className="font-mono text-xs uppercase tracking-[0.2em] text-muted">05 &middot; Contact</span>
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-muted">06 &middot; Contact</span>
           <h2 className="mt-4 font-display text-4xl leading-tight md:text-5xl">
             Let&apos;s build something that <span className="italic text-accent">holds up.</span>
           </h2>

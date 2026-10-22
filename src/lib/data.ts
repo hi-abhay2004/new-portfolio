@@ -153,19 +153,19 @@ export const services: ServiceOffer[] = [
   {
     title: "Backend & Database Architecture",
     description:
-      "PostgreSQL schema design, legacy-system migration, and REST API builds on Node.js/NestJS.",
+      "Hire a freelance backend developer for PostgreSQL schema design, legacy-system migration, and REST API builds on Node.js/NestJS.",
     deliverables: ["Schema design & migrations", "Data sync & integrity", "REST API integration"],
   },
   {
-    title: "Full-Stack Web Applications",
+    title: "In-House Software & Full-Stack Web Apps",
     description:
-      "End-to-end products on Next.js, NestJS, and PostgreSQL — dashboards, ERPs, multi-vendor platforms.",
+      "Build in-house software instead of stitching together third-party tools — end-to-end products on Next.js, NestJS, and PostgreSQL: dashboards, ERPs, multi-vendor platforms.",
     deliverables: ["Customer/admin dashboards", "Auth & role-based access", "Cloud deployment"],
   },
   {
-    title: "AI & Automation",
+    title: "AI Developer for Hire — LLM & Automation",
     description:
-      "LLM-based RAG applications, n8n workflow automation, and WhatsApp communication bots.",
+      "Hire an AI developer for LLM-based RAG applications, n8n workflow automation, and WhatsApp communication bots.",
     deliverables: ["RAG support bots", "n8n automations", "WhatsApp integrations"],
   },
   {

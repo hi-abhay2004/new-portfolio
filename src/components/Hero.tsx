@@ -47,6 +47,16 @@ export function Hero() {
             <span className="sr-only"> — {profile.role}, freelance PostgreSQL &amp; full-stack developer</span>
           </motion.h1>
 
+          <motion.p
+            suppressHydrationWarning
+            initial={{ opacity: 0, y: reduce ? 0 : 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="mt-4 font-mono text-sm uppercase tracking-wider text-accent md:text-base"
+          >
+            Freelance Software Developer &middot; Full-Stack &amp; Backend Engineer for Hire
+          </motion.p>
+
           <div className="mt-10 max-w-2xl lg:max-w-[42%] xl:max-w-[38%]">
             <motion.p
               suppressHydrationWarning
