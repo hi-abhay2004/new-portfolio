@@ -22,7 +22,14 @@ function Thumb({ cert }: { cert: Certificate }) {
         </div>
       ) : (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={cert.file} alt="" aria-hidden="true" className="h-full w-full object-contain" />
+        <img
+          src={cert.file}
+          alt=""
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          className="h-full w-full object-contain"
+        />
       )}
     </motion.div>
   );

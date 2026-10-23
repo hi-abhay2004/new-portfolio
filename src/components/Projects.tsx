@@ -21,7 +21,7 @@ export function Projects() {
           ))}
         </RevealGroup>
 
-        <p className="mt-6 text-xs text-foreground/40">
+        <p className="mt-6 text-xs text-foreground/60">
           Live links and full write-ups being added per project — placeholders marked for now.
         </p>
       </div>

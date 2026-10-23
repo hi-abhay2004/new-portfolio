@@ -13,7 +13,7 @@ export function Nav() {
         <a
           href="#top"
           className="font-mono text-sm font-medium tracking-tight"
-          aria-label={`${profile.name} — home`}
+          aria-label={`${profile.initials}. — ${profile.name}, home`}
         >
           {profile.initials}
           <span className="text-accent">.</span>

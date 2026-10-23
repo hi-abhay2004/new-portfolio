@@ -35,7 +35,7 @@ export function Contact() {
             </li>
             <li>
               <a href={waHref} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 hover:text-accent">
-                <SiWhatsapp size={16} /> WhatsApp
+                <SiWhatsapp size={16} aria-hidden="true" /> WhatsApp
               </a>
             </li>
             <li>

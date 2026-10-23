@@ -99,15 +99,18 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
           className="relative z-0 mt-8 aspect-square w-full overflow-hidden lg:absolute lg:inset-y-0 lg:right-0 lg:mt-0 lg:flex lg:aspect-auto lg:w-[52%] lg:items-center lg:justify-end lg:overflow-visible xl:w-[80%]"
         >
-          <img
-            src="/abhay-portfolio-portrait.svg"
-            alt={`${profile.name} — illustrated portrait`}
-            width={1650}
-            height={900}
-            loading="eager"
-            fetchPriority="high"
-            className="h-full w-full object-cover object-right lg:h-auto lg:max-h-[82vh] lg:w-full lg:object-contain"
-          />
+          <picture>
+            <source media="(min-width: 1024px)" srcSet="/portrait-desktop.webp" />
+            <img
+              src="/portrait-mobile.webp"
+              alt={`${profile.name} — illustrated portrait`}
+              width={800}
+              height={800}
+              loading="eager"
+              fetchPriority="high"
+              className="h-full w-full object-cover object-right lg:h-auto lg:max-h-[82vh] lg:w-full lg:object-contain"
+            />
+          </picture>
         </motion.div>
         </div>
 
